@@ -3,6 +3,8 @@ export const stylesConfig = {
     ...baseStyles,
     width: '343px',
     minHeight: '52px',
+    maxHeight: '94px',  // Устанавливаем максимальную высоту в 3 строчки
+    overflow: "auto",  // Добавляем прокрутку
     borderRadius: '12px',
     border: '1px solid grey',
     fontFamily: 'Montserrat',

@@ -325,6 +325,7 @@ export const Questionnaire = () => {
               value={getAllergensValue()} 
               options={allergensOptions}
               components={animatedComponents}
+              closeMenuOnSelect={false}
               isMulti
               id="allergens-input"
               placeholder="Аллергены" />
